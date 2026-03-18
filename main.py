@@ -20,7 +20,7 @@ TEXT_GAP = 0    # 0 мм между QR и номером
 FRAME_PADDING = 3     # отступ рамки
 
 # Читаем Excel
-df = pd.read_excel(EXCEL_FILE, header=None)
+df = pd.read_excel(EXCEL_FILE, header=None, dtype= str)
 
 # Создаём PDF
 c = canvas.Canvas(OUTPUT_PDF, pagesize=A4)
