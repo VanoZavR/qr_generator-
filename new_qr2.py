@@ -10,7 +10,7 @@ pervyi_stolbec = df.iloc[:, 0]
 gotovaya_ssylka = []
 
 for y in pervyi_stolbec:
-    ssylka = "https://app.skurtt.me/" + str(y)
+    ssylka = "https://go.yandex/scooters?number=" + str(y)
     gotovaya_ssylka.append(ssylka)
 
 df[1] = gotovaya_ssylka

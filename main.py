@@ -43,8 +43,8 @@ for index, row in df.iterrows():
     qr.save(qr_filename)
 
     # РАМКА
-    FRAME_WIDTH = 24.5 * mm
-    FRAME_HEIGHT = 23.5 * mm
+    FRAME_WIDTH = 24.2 * mm
+    FRAME_HEIGHT = 23.2 * mm
 
     RADIUS = 2 * mm  # радиус скругления
 
